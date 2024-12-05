@@ -1,0 +1,80 @@
+.loader {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+}
+
+.login {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.btn-extended {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.red-error {
+    color: rgb(255, 136, 0);
+}
+
+
+/* Start Table Page */
+.ds {
+    padding-left: 7.5px;
+}
+
+.alc li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alc li img {
+    width: 40px;
+}
+
+/* End Table Page */
+
+
+.green-user {
+    color: rgb(23, 185, 37);
+}
+
+
+.result {
+    width: 30px;
+    outline: none;
+    border: 0.1px solid #ddd;
+}
+
+.alert-green {
+    margin: 20px;
+    padding: 15px;
+    color: #ffffff;
+    /* 00ff6a */
+    /* 82ff8d */
+    font-size: 1.1rem;
+    background: rgb(18, 199, 160);
+    border-radius: 10px;
+    border: 1.5px solid rgb(0, 136, 7);
+}
+
+
+.total-small {
+    color: rgb(47, 150, 115);
+    /* background: #2cb919; */
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+}
+.total-small-text{
+    color: rgb(151, 151, 151);
+
+}
+
+.product-image img{
+    width: 90px;
+    height: 90px;
+}

@@ -1,0 +1,438 @@
+.profile-container {
+    margin-top: 5rem;
+}
+.profile-container .profile{
+    padding: 2rem;
+    background: #ddd;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    /* opacity: 0.8; */
+    border-radius: 22px;
+    border: 1px solid rgb(202, 202, 202);
+
+}
+/* Order Page  */
+.order-header{
+    margin-top: 8.0rem;
+}
+.order{
+    padding: 2rem;
+    background: #ddd;
+    margin-top: 2.0rem;
+    /* margin-bottom: 1rem; */
+    /* opacity: 0.8; */
+    border-radius: 22px;
+    border: 1px solid rgb(202, 202, 202);
+
+}
+.order-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-map{
+    width: 100%;
+    margin-top: 30px;
+    background: #818181;
+    border-radius: 25px;
+    height: 300px;
+}
+.order-line{
+    width: 100%;
+    margin-top: 10px;
+    height: 3px;
+    background: #818181;
+}
+/* .order-detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+.order-detail div{
+    margin-top: 10px;
+}
+.order-delevery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.order-image-container{
+    display: flex;
+}
+.order-image-container .order-delevery-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.order-image-container span{
+    font-size: larger;
+}
+.order-chat-btn{
+    background: #47ce47;
+    padding: 3px 10px;
+    border-radius: 7px;
+    color: #fff;
+}
+.delvery-title{
+    font-size: small;
+    color: #797979;
+}
+.ssp{
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #000; */
+}
+.pending{
+    background: #ecc23a;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.success{
+    background: #3aec3a;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.rejected{
+    background: #ec3a3a;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.in-progress{
+    background: #77777781;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+/* End Order Page  */
+
+.profile-links {
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.profile-links a {
+    background: #000;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    border-radius: 7.5px;
+    color: #000;
+    background: white;
+    box-shadow: 1px 10px 10px #4b4b4b52 ;
+}
+.profile-links .logout{
+    background: #ff4d88;
+    color: white;
+    box-shadow: 1px 10px 10px #ff1d1d52 ;
+}
+.profile-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-image img{
+    border-radius: 50%;
+    width: 175px;
+    user-select: none;
+
+}
+.User-Profile-Image-Auth
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.user-intro{
+    margin-right: 3rem;
+}
+.other-profile {
+    /* background: #070c07; */
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+.edit-circle{
+    border: 1px solid #2fb941;
+    border-radius: 50%;
+    width: 50px;
+    background: blue;
+    height: 50px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-about{
+    background: red;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.subscribe-profile{
+    /* background: red; */
+    justify-content: space-between;
+    /* padding: 1rem 2rem;
+    border: 0.3px solid rgb(126, 126, 126);
+    box-shadow: 1px 10px 10px #77777752 ;
+    border-radius: 10px;
+    margin-bottom: 1rem; */
+}
+.edit{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.8rem;
+    /* color: #2fb941; */
+    color: #289136;
+    /* color: #616161; */
+    /* background: #a32e2e; */
+    border: 1px solid #289136;
+    border-radius: 50%;
+    transition: 350ms ease;
+}
+.edit:hover{
+    color: #2fb941;
+    border:1px solid #2fb941;
+}
+.chat-profile-btn {
+    background: #24a35d59;
+    padding: 7.5px 14px;
+}
+.chat-profile-btns {
+    background: #a37b2459;
+    color: #857622;
+    padding: 7.5px 14px;
+}
+.chat-profile-btns:hover {
+    background: #8576227c;
+    color: #857622;
+    padding: 7.5px 14px;
+}
+
+
+/* Profile Image Is Index Page */
+
+.header-area .main-nav .nav li.profile-submenu {
+    position: relative;
+    padding-right: 30px;
+  }
+
+
+
+  .background-header .main-nav .nav li.profile-submenu:after {
+    color: #2a2a2a;
+  }
+
+  .header-area .main-nav .nav li.profile-submenu ul {
+    position: absolute;
+    width: 200px;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    top: 50px;
+    left: -60px;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(+2em);
+    visibility: hidden;
+    z-index: -1;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  }
+
+  .header-area .main-nav .nav li.profile-submenu ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .header-area .main-nav .nav li.profile-submenu ul li a {
+    opacity: 1;
+    display: block;
+    background: #f7f7f7;
+    color: #2a2a2a !important;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+  }
+
+  .header-area .main-nav .nav li.profile-submenu ul li a:hover {
+    background: #fff;
+    color: #aaa !important;
+    padding-left: 25px;
+  }
+
+  .header-area .main-nav .nav li.profile-submenu ul li a:hover:before {
+    width: 3px;
+  }
+
+  .header-area .main-nav .nav li.profile-submenu:hover ul {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+  }
+
+
+/* Start Design Latest Products In Profile */
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product{
+    /* background: #000; */
+    width: 18rem;
+    margin: 2.5% 2.5% 0 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+}
+.product-img {
+    display: flex;
+    flex-direction: column;
+}
+.product-img img{
+    width: 100%;
+}
+.product-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.product .product-text{
+    font-size: larger;
+}
+.product-details .product-price {
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 9px 3px 9px;
+    background: #2a2a2a;
+    border: 1px solid #2a2a2a;
+    transition: 300ms ease;
+}
+.product-details .product-price:hover {
+    color: #2a2a2a;
+    background: #ddd;
+}
+
+.center {
+    text-align: center;
+}
+@media (max-width:600px) {
+    .profile-container{
+        padding: 1rem ;
+
+        /* background:#289136; */
+    }
+    .image-center{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        background: #000;
+    }
+    .other-profile{
+        /* padding: 1px; */
+        /* margin-top: 1rem; */
+        margin: 0;
+        /* background: #000; */
+    }
+    .edit{
+        padding: 0.6rem;
+        font-size: 1rem;
+
+    }
+    .profile-container .profile{
+        padding: 1rem ;
+    }
+    .user-intro{
+        margin-right: 1rem;
+    }
+}
+
+.grow{
+    width: 100%;
+    /* flex-grow: 1; */
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: red;
+}
+
+
+.form-detail{
+    width: 100%;
+}
+.textarea-detail{
+    padding: 10px 1rem ;
+    width: 100%;
+}
+
+.add-profile-image{
+    background: rgba(199, 199, 199, 0.555);
+    width: 100%;
+    height: 80px;
+    border-radius: 15px;
+    margin: 14px;
+    border: 5px dashed rgb(116, 197, 211);
+}
+
+.pp-pp{
+    background: red;
+    padding: 100px;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.Edit-Account{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.profile-details-1{
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.profile-details-1 div{
+    padding: 10px;
+    background: #212529;
+    border-radius: 10px;
+
+    color: white;
+}
+.profile-img{
+    width: 200px !important;
+    height: 200px;
+}
